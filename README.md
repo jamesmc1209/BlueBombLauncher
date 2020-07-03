@@ -39,9 +39,9 @@ After selecting your version type <code> Y </code> and press enter. If you see <
 
 <i>In all honesty it is easier to delete the entire bluebomb directory and bluebomb-helper.sh and redownload using this guide.</i>
 
--Delete existing bluebomb folder from /home/ directory.
--Open bluebomb-helper.sh with gEdit.
--Navigate to the function that says download() and replace it with this:
+- Delete existing bluebomb folder from /home/ directory.
+- Open bluebomb-helper.sh with gEdit.
+- Navigate to the function that says download() and replace it with this:
       
       download() {
     sc 1 "Prerequisites"
@@ -62,7 +62,7 @@ After selecting your version type <code> Y </code> and press enter. If you see <
     cd $HOME/bluebomb    
     printf "Success!\n\n"
     }
--Save the file and press <code>ctrl + alt + t</code> to open the terminal.
+- Save the file and press <code>ctrl + alt + t</code> to open the terminal.
 Type
 
       <code>./bluebomb-helper.sh</code>
