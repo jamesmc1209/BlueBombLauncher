@@ -4,11 +4,16 @@ An extension of bluebomb-helper.sh from wii.guide.
 Installation:
 
 Open Terminal and enter:
-    wget https://wii.guide/assets/files/bluebomb-helper.sh
+
+      wget https://wii.guide/assets/files/bluebomb-helper.sh
+
 After it downloads the file enter:
-    chmod +x bluebomb-helper.sh
+    
+      chmod +x bluebomb-helper.sh
+
 Then:
-    ./bluebomb-helper.sh
+    
+      ./bluebomb-helper.sh
 
 Now all the required dependencies will be downloaded.
 After they have finished you will now see the Bluebomb Launcher on your desktop.
