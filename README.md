@@ -51,7 +51,10 @@ Navigate to the function that says download() and replace it with this:
     printf "Success!\n\n"
     }
 Save the file and press <code>ctrl + alt + t</code> to open the terminal.
-Type 
-      ./bluebomb-helper.sh
+Type
+
+      <code>./bluebomb-helper.sh</code>
+
 and press enter.
-bluebomb will be redownloaded and the bluebomb launcher will be added to the desktop.
+
+Now bluebomb will be redownloaded and the bluebomb launcher will be added to the desktop.
