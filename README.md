@@ -1,7 +1,7 @@
 # BlueBombLauncher
 An extension of bluebomb-helper.sh from wii.guide.
 
-Installation:
+## Installation:
 
 Open Terminal and enter:
 
@@ -18,12 +18,22 @@ Then:
 Now all the required dependencies will be downloaded.
 After the download has finished you will now see the Bluebomb Launcher on your desktop.
 
-I modified the bluebomb-helper.sh from wii.guide to download the bluebomb icon from wii.guide as well as the bluebomb.desktop file from this repo.
-It adds a desktop launcher that just opens the .sh file in terminal.
-I needed this when my wii mini wasnt wanting to connect to my pc or raspi running the exploit. And I had to keep retrying the exploit.
+## Using the Bluemomb Exploit
+First you will need to download the hack-mii installer from https://bootmii.org/download/
+Once downloaded place the <code>boot.elf</code> file in the root of your SD card and insert it into the Wii Console.
+<i>The Wii Mini lacks a SD card slot so you will have to place the <code>boot.elf</code> into the root of a FAT32 formatted Flash Drive or External Harddrive.</i>
 
-Also probably should specify that Im using Ubuntu 16.04.
-Note: I did not create the bluebomb-helper.sh that credit goes to urmum_69 & twosecslater. I only injected a few lines of code that downloads and enables the launcher. When downloading the bluebomb.png will be downloaded to the /home/bluebomb/ folder then copied to /usr/share/icons/default/ directory. I did this because the ICON directory requires an absolute path, using $USER or $HOME did not find the icon file.
+
+After bluebomb has downloaded and unpacked run it via the bluebomb launcher on your desktop.
+Bluebomb will launch in a terminal window.
+
+Now you will see options to select your will console. select <b>1</b> for Original Wii console or select <b>2</b> for Wii Mini console.
+Next it will ask you for your system menu version. If exploiting a Wii Mini select US or PAL depending on the consoles region. If exploiting an original Wii you will need to enter your system menu version. To find this navigate to your setting menu on your wii. In the top right corner there should be a version code that looks like<code>4.3U</code>.
+After selecting your version type <code> Y </code> and press enter. If you see <code> Waiting to Accept...</code> then begin clicking the Wii's sync button until the exploit is loaded.
+
+<b>For more detailed information about this exploit and will softmodding in general please visit:</b> https://wii.guide/bluebomb
+
+
 
 To download and use the launcher with an existing bluebomb exploit:
 
@@ -58,3 +68,12 @@ Type
 and press enter.
 
 Now bluebomb will be redownloaded and the bluebomb launcher will be added to the desktop.
+
+
+_______________________________________________________________________________________________________________________________________
+I modified the bluebomb-helper.sh from wii.guide to download the bluebomb icon from wii.guide as well as the bluebomb.desktop file from this repo.
+It adds a desktop launcher that just opens the .sh file in terminal.
+I needed this when my wii mini wasnt wanting to connect to my pc or raspi running the exploit. And I had to keep retrying the exploit.
+
+Also probably should specify that Im using Ubuntu 16.04.
+Note: I did not create the <code>bluebomb-helper.sh</code> that credit goes to urmum_69 & twosecslater. I only injected a few lines of code that downloads and enables the launcher. When downloading the bluebomb.png will be downloaded to the <code>/home/bluebomb/</code> folder then copied to <code>/usr/share/icons/default/</code> directory. I did this because the ICON directory requires an absolute path, using $USER or $HOME did not find the icon file.
