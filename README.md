@@ -1,5 +1,5 @@
 # BlueBombLauncher
-An extension of bluebomb-helper.sh that creates a desktop launcher for thr exploit.
+An extension of bluebomb-helper.sh that creates a desktop launcher for the exploit.
 
 ## Installation:
 
