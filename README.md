@@ -3,7 +3,7 @@ An extension of bluebomb-helper.sh from wii.guide.
 
 ## Installation:
 
-Open Terminal and enter:
+Press<code>CTRL + ALT + T</code> to open terminal window and enter:
 
       wget https://github.com/mcneproj/BlueBombLauncher/releases/download/0.1/bluebomb-helper.sh
 
