@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BlueBomb-Launcher
+Comment=A launcher for bluebomb wii hack.
+Exec=gnome-terminal --working-directory=$HOME -e ./bluebomb-helper.sh
+Icon=/usr/share/icons/default/bluebomb.png
+Type=Application
