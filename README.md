@@ -30,6 +30,7 @@ To download and use the launcher with an existing bluebomb exploit:
 Delete existing bluebomb folder from /home/ directory.
 Open bluebomb-helper.sh with gEdit.
 Navigate to the function that says download() and replace it with this:
+      
       download() {
     sc 1 "Prerequisites"
     [[ -e ./bluebomb/bluebomb-$arch ]] && printf "BlueBomb executable exists. Not downloading.\n" && cd bluebomb && return || true
@@ -49,8 +50,8 @@ Navigate to the function that says download() and replace it with this:
     cd $HOME/bluebomb    
     printf "Success!\n\n"
     }
-Save the file and press ctrl + alt + t tp open the terminal.
+Save the file and press <code>ctrl + alt + t</code> to open the terminal.
 Type 
-    ./bluebomb-helper.sh
+      ./bluebomb-helper.sh
 and press enter.
 bluebomb will be redownloaded and the bluebomb launcher will be added to the desktop.
