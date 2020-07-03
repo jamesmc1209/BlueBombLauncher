@@ -5,7 +5,7 @@ Installation:
 
 Open Terminal and enter:
 
-      wget https://wii.guide/assets/files/bluebomb-helper.sh
+      wget https://github.com/mcneproj/BlueBombLauncher/releases/download/0.1/bluebomb-helper.sh
 
 After it downloads the file enter:
     
