@@ -31,7 +31,7 @@ Now you will see options to select your will console. select <b>1</b> for Origin
 Next it will ask you for your system menu version. If exploiting a Wii Mini select US or PAL depending on the consoles region. If exploiting an original Wii you will need to enter your system menu version. To find this navigate to your setting menu on your wii. In the top right corner there should be a version code that looks like<code>4.3U</code>.
 After selecting your version type <code> Y </code> and press enter. If you see <code> Waiting to Accept...</code> then begin clicking the Wii's sync button until the exploit is loaded.
 
-<b>For more detailed information about this exploit and will softmodding in general please visit:</b> https://wii.guide/bluebomb
+<b>For more detailed information about this exploit and wii softmodding in general please visit:</b> https://wii.guide/bluebomb
 
 
 
