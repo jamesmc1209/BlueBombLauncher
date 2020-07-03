@@ -1,5 +1,5 @@
 # BlueBombLauncher
-An extension of bluebomb-helper.sh from wii.guide.
+An extension of bluebomb-helper.sh that creates a desktop launcher for thr exploit.
 
 ## Installation:
 
@@ -72,8 +72,13 @@ Now bluebomb will be redownloaded and the bluebomb launcher will be added to the
 
 _______________________________________________________________________________________________________________________________________
 I modified the bluebomb-helper.sh from wii.guide to download the bluebomb icon from wii.guide as well as the bluebomb.desktop file from this repo.
+
 It adds a desktop launcher that just opens the .sh file in terminal.
+
 I needed this when my wii mini wasnt wanting to connect to my pc or raspi running the exploit. And I had to keep retrying the exploit.
 
 Also probably should specify that Im using Ubuntu 16.04.
-Note: I did not create the <code>bluebomb-helper.sh</code> that credit goes to urmum_69 & twosecslater. I only injected a few lines of code that downloads and enables the launcher. When downloading the bluebomb.png will be downloaded to the <code>/home/bluebomb/</code> folder then copied to <code>/usr/share/icons/default/</code> directory. I did this because the ICON directory requires an absolute path, using $USER or $HOME did not find the icon file.
+Note: I did not create the <code>bluebomb-helper.sh</code> that credit goes to urmum_69 & twosecslater. 
+I only injected a few lines of code that downloads and enables the launcher. 
+Also the bluebomb.png will be downloaded to the <code>/home/bluebomb/</code> folder then copied to <code>/usr/share/icons/default/</code> directory. 
+I did this because the ICON directory requires an absolute path, using $USER or $HOME did not find the icon file.
