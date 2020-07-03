@@ -35,11 +35,13 @@ After selecting your version type <code> Y </code> and press enter. If you see <
 
 
 
-To download and use the launcher with an existing bluebomb exploit:
+## To download and use the launcher with an existing bluebomb exploit:
 
-Delete existing bluebomb folder from /home/ directory.
-Open bluebomb-helper.sh with gEdit.
-Navigate to the function that says download() and replace it with this:
+<i>In all honesty it is easier to delete the entire bluebomb directory and bluebomb-helper.sh and redownload using this guide.</i>
+
+-Delete existing bluebomb folder from /home/ directory.
+-Open bluebomb-helper.sh with gEdit.
+-Navigate to the function that says download() and replace it with this:
       
       download() {
     sc 1 "Prerequisites"
@@ -60,7 +62,7 @@ Navigate to the function that says download() and replace it with this:
     cd $HOME/bluebomb    
     printf "Success!\n\n"
     }
-Save the file and press <code>ctrl + alt + t</code> to open the terminal.
+-Save the file and press <code>ctrl + alt + t</code> to open the terminal.
 Type
 
       <code>./bluebomb-helper.sh</code>
@@ -71,6 +73,8 @@ Now bluebomb will be redownloaded and the bluebomb launcher will be added to the
 
 
 _______________________________________________________________________________________________________________________________________
+### Notes
+
 I modified the bluebomb-helper.sh from wii.guide to download the bluebomb icon from wii.guide as well as the bluebomb.desktop file from this repo.
 
 It adds a desktop launcher that just opens the .sh file in terminal.
