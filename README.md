@@ -65,7 +65,7 @@ Navigate to the function that says download() and replace it with this:
 Save the file and press <code>ctrl + alt + t</code> to open the terminal.
 Type
 
-      <code>./bluebomb-helper.sh</code>
+      ./bluebomb-helper.sh
 
 and press enter.
 
