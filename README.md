@@ -5,7 +5,7 @@ An extension of bluebomb-helper.sh that creates a desktop launcher for the explo
 
 Press<code>CTRL + ALT + T</code> to open terminal window and enter:
 
-      wget https://github.com/mcneproj/BlueBombLauncher/releases/download/0.1/bluebomb-helper.sh
+      wget https://github.com/jamesmc1209/BlueBombLauncher/releases/download/0.1/bluebomb-helper.sh
 
 After it downloads the file enter:
     
@@ -56,7 +56,7 @@ Navigate to the function that says download() and replace it with this:
     rm bluebomb.zip
     wget -q --secure-protocol=TLSv1_2 "https://wii.guide/images/bluebomb.png"
     cd ~/Desktop    
-    wget -q --secure-protocol=TLSv1_2 "https://github.com/mcneproj/BlueBombLauncher/releases/download/0.1/bluebomb.desktop"
+    wget -q --secure-protocol=TLSv1_2 "https://github.com/jamesmc1209/BlueBombLauncher/releases/download/0.1/bluebomb.desktop"
     chmod +x bluebomb.desktop
     sudo cp $HOME/bluebomb/bluebomb.png /usr/share/icons/default
     cd $HOME/bluebomb    
